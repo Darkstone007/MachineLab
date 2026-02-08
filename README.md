@@ -39,17 +39,19 @@ Machine Lab for Class
 
 ## This is the notes for the Motor Drive Video of it working
 
+I guess i didin't really have much issues when follwoing the intrsuctions based off the website, though i think the closed circuit part was important ot rememeber because if i din't connect that final wire from the groun on the bread board to the ground of the power supply then the the circuit would be incomplete. But that was my only small stump I had but after reviewing my notes it was just a think of checking and remmebering the basics of what the professor mentioned in class.
+
 [Video](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Motor_L298.MP4)
 
-## This is the notes for the Motor Drive Video of it working
+## This is the notes for the Design Idea 1
 
 ![alt text](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Design_Idea_1.jpeg)
 
-## This is the notes for the Motor Drive Video of it working
+## This is the notes for the Design Idea 2
 
 ![alt text](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Design_Idea_2.jpeg)
 
-## This is the notes for the Motor Drive Video of it working
+## This is the notes for the Design Idea 3
 
 ![alt text](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Design_Idea_3.jpeg)
 
