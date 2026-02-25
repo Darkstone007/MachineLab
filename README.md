@@ -55,6 +55,39 @@ I guess i didin't really have much issues when follwoing the intrsuctions based 
 
 ![alt text](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Design_Idea_3.jpeg)
 
+## This is the note for the Design of Prototype Motor Photos
+
+When I was creating this motor I came a cross a few problems that i think need to be first addressed. First was conveyer built material, i started off with this plastic material, cutting and melting it together to create a belt. The Material had not enough friction to cause traction and neither enough surface area covered in proportion to avaliable space. The make shift shaft that i created to hold the belt, was made out of cardbaord. Because of the weak model structure and the lack of good infurastructure of the matierals used to construct it, it fell apart easily and was not very consistant in its perfomance [!["Video Motor with plastic tubing"](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtube.com/shorts/s_SNC1jV6XA?si=-URGgfuHqCl4ZbIS). I could of benefited from better design of the mechanism and sturdier material to support the idea, which was why i switched it out for a show lace which solved a large part of the problem, but the design needs to be revsisted. [!["Video for Motor with shoe lace"](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtube.com/shorts/8Dqn5lWW97M?si=hXSyw8BTpPVA5CNm) 
+
+Below are photos of the project ar ebelow to indicate that fact that the trial and error. 
+
+Materials include: Cardboard, Tape, Doublesided table, MAsking tap, Motor, Arduino, Bread board and Jumper wires.
+
+This is the design using the cardboard: 
+![alt text](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Proto_Motor_1.jpeg)
+
+The cut out of the boards to use as  shaft:
+![alt text](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Proto_Motor_3.jpeg)
+![alt text](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Proto_Motor_4.jpeg)
+
+The first part of the design:
+![alt text](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Proto_Motor_5.jpeg)
+![alt text](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Proto_Motor_6.jpeg)
+
+Putting together with materials and code:
+![alt text](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Proto_Motor_7.jpeg)
+![alt text](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Proto_Motor_8.jpeg)
+![alt text](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Proto_Motor_9.jpeg)
+
+Here you can watch a video of it running:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="https://youtube.com/shorts/IK1mVyh8lzY?si=zn6gdLoCdxx42iGn" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a> 
+
+
+
+
+
 
 
 
