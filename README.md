@@ -71,7 +71,7 @@ Machine Lab for Class – Personal Journal & Documentation
 
 I didn't have many issues following the instructions from the website. The only small challenge was remembering the importance of a **closed circuit**. If the final ground wire from the breadboard to the power supply ground wasn't connected, the circuit stayed incomplete. After checking my notes and recalling the professor's basics, it was straightforward.
 
-[Watch Motor Drive Demo (GitHub MP4)](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Motor_L298.MP4?raw=true)
+[Watch Motor Drive Demo (GitHub MP4)](https://youtube.com/shorts/yw2Rd62e0Cs?si=GsvrJ_B3eqb67F1B) 
 
 [↑ Back to Top](#toc)
 
