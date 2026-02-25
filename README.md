@@ -140,10 +140,13 @@ Cyberpunk 2077 (2020) is an action role-playing game set in Night City — a dys
 **Class Prototype Mechanism**  
 Simplified version showing arm detachment/reveal. String pulls detached arm up via L298 motor.
 
-**Closer Concepts & References**
+**Closer/Complete Concept & References**
+![Cyberpunk 2077 Concept](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Concept_design_CP2077.jpeg?raw=true)
 
-![Cyberpunk 2077 Concept](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Concept_design_CP2077.jpeg?raw=true)  
-![Mechanism Detail Reference](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Mechanism_Detail_1.jpeg?raw=true)  
+**Train Rail & Conveyor built onceptualisation**
+![Mechanism Detail Reference](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Mechanism_Detail_1.jpeg?raw=true) 
+
+**Enclousure Design**
 ![Enclosure Design](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Enclosure_Design.jpeg?raw=true)
 
 [↑ Back to Top](#toc)
