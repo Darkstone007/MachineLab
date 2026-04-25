@@ -17,6 +17,10 @@ Machine Lab for Class – Personal Journal & Documentation
 - [Mechanism Concepts 1–2](#mechanism-concepts)
 - [Prototype Motor – Notes & Photos](#prototype-motor)
 - [Group Project: Cyberpunk 2077 Diorama](#group-project)
+- [March 23 - Journal](#marc-23)
+- [April 12 (Progress Work + First Individual Meeting) - Journal](#apr-12)
+- [April 19 (Second Individual Meeting) - Journal](#apr-19)
+- [April 23 (Progress After Second Meeting) - Journal](#april-23)
 
 ## Jan 20 – Class Notes <a id="jan-20"></a>
 
@@ -51,6 +55,8 @@ Machine Lab for Class – Personal Journal & Documentation
 ## Feb 3 – Class Notes <a id="feb-3"></a>
 
 ![Notes - February 3](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/3_feb.jpeg?raw=true)
+
+
 
 [↑ Back to Top](#toc)
 
@@ -153,7 +159,8 @@ Simplified version showing arm detachment/reveal. String pulls detached arm up v
 
 # Project Journal – Individual Work
 
-## Entry – March 23, 2026
+## March 23 – Journal <a id="marc-23"></a>
+
 Today we switched from group projects to individual projects due to the online situation. This meant I had to rethink my idea so that I could realistically build it on my own with the resources I have at home in Cape Town.
 
 At first, I was waiting for money to buy materials like the intro to IM starter kit, which delayed me. I also considered doing something involving welding or woodworking, but I realised that time and access to tools would make that difficult.
@@ -171,7 +178,7 @@ The idea is still broad and not yet adapted to my actual constraints.
 
 ---
 
-## Entry – April 11–12, 2026 (Progress Work + First Individual Meeting)
+## Entry – April 11–12, 2026 (Progress Work + First Individual Meeting) – Journal <a id="apr-12"></a>
 I worked on identifying and gathering the materials I already have while also discussing my project in the individual meeting. The focus was on adapting the idea to fit the online situation and the resources available to me.
 
 The instructor emphasized that adapting to constraints is the most important part of the project.
@@ -217,7 +224,7 @@ Early testing has been done, but the system is unstable and incomplete. The proj
 
 ---
 
-## Entry – April 19, 2026 (Second Individual Meeting)
+## Entry – April 19, 2026 (Second Individual Meeting) – Journal <a id="apr-19"></a>
 In this meeting, we reviewed my progress and discussed challenges.
 
 I explained that I was unable to get additional materials due to weather and timing issues, and I was still researching how to properly execute the maglev system.
@@ -236,7 +243,7 @@ Progress is limited. The project remains in the planning and testing phase, and 
 
 ---
 
-## Entry – April 23, 2026 (Progress After Second Meeting)
+## Entry – April 23, 2026 (Progress After Second Meeting) – Journal <a id="apr-23"></a>
 I continued working on refining the concept and planning the electromagnet setup. I further developed the idea and adjusted the design due to resource limitations.
 
 ### Reflection
