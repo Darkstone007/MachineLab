@@ -20,7 +20,7 @@ Machine Lab for Class – Personal Journal & Documentation
 - [March 23 - Journal](#marc-23)
 - [April 12 (Progress Work + First Individual Meeting) - Journal](#apr-12)
 - [April 19 (Second Individual Meeting) - Journal](#apr-19)
-- [April 23 (Progress After Second Meeting) - Journal](#april-23)
+- [April 23 (Progress After Second Meeting) - Journal](#apr-23)
 
 ## Jan 20 – Class Notes <a id="jan-20"></a>
 
