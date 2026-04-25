@@ -150,3 +150,151 @@ Simplified version showing arm detachment/reveal. String pulls detached arm up v
 ![Enclosure Design](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Enclosure_Design.jpeg?raw=true)
 
 [↑ Back to Top](#toc)
+
+# Project Journal – Individual Work
+
+## Entry – March 23, 2026
+Today we switched from group projects to individual projects due to the online situation. This meant I had to rethink my idea so that I could realistically build it on my own with the resources I have at home in Cape Town.
+
+At first, I was waiting for money to buy materials like the intro to IM starter kit, which delayed me. I also considered doing something involving welding or woodworking, but I realised that time and access to tools would make that difficult.
+
+I then went back to my Cyberpunk group assignment idea where I was working on a train. Since I’m interested in trains and had already started thinking about it, I decided to continue with that concept. This led me to the idea of building a maglev train, something I had experimented with on a smaller scale in high school.
+
+### Current State
+The idea is still broad and not yet adapted to my actual constraints.
+
+### Next Steps
+- Brainstorm a version of the idea that fits my available tools
+- Research simple ways to build a maglev system at home
+
+[↑ Back to Top](#toc)
+
+---
+
+## Entry – April 11–12, 2026 (Progress Work + First Individual Meeting)
+I worked on identifying and gathering the materials I already have while also discussing my project in the individual meeting. The focus was on adapting the idea to fit the online situation and the resources available to me.
+
+The instructor emphasized that adapting to constraints is the most important part of the project.
+
+### Available Materials
+- Arduino PCB
+- Copper wire
+- Workspace
+
+### Testing Notes
+I started testing magnet balancing. The concept showed some potential, but issues became clear during experimentation.
+
+### Issues
+- The magnet was unstable and needed guides
+- There was no movement system
+- I needed to integrate an electromagnet to control levitation
+
+### Revised Concept
+I will build a simplified maglev system, focusing on levitation using an electromagnet rather than a full moving train.
+
+### Materials / Focus
+- Arduino PCB
+- Magnets
+- Copper wire
+- Battery
+- Basic frame (wood or simple structure)
+
+### Adaptation
+I decided to simplify the project further. Instead of focusing on movement, I will prioritise achieving stable levitation. Movement will only be attempted if time allows.
+
+### Current State
+Early testing has been done, but the system is unstable and incomplete. The project is still in an experimental phase, but the direction is now clearer and more realistic.
+
+### Next Steps
+- Gather available materials
+- Start small-scale prototyping
+- Sketch possible designs
+
+![Prototype](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Train.1.jpg)
+![Sketch](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Concept_design.jpg) 
+
+[↑ Back to Top](#toc)
+
+---
+
+## Entry – April 19, 2026 (Second Individual Meeting)
+In this meeting, we reviewed my progress and discussed challenges.
+
+I explained that I was unable to get additional materials due to weather and timing issues, and I was still researching how to properly execute the maglev system.
+
+### Current State
+Progress is limited. The project remains in the planning and testing phase, and I am still unsure about the final execution approach.
+
+### Next Steps
+- Continue researching maglev systems
+- Finalise a simple and achievable design
+- Begin building the electromagnet
+
+![Detailed Design](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Train.2.jpg) 
+
+[↑ Back to Top](#toc)
+
+---
+
+## Entry – April 23, 2026 (Progress After Second Meeting)
+I continued working on refining the concept and planning the electromagnet setup. I further developed the idea and adjusted the design due to resource limitations.
+
+### Reflection
+I realised that trying to do too much (like full train movement) was unrealistic. Simplifying the project made it more achievable and focused.
+
+### Current State
+I now have a clearer direction: focus on building an electromagnet strong enough to lift a permanent magnet. However, I have not yet successfully built or tested the full system. The project is still in early development, but the approach is now more practical and focused on levitation only.
+
+### Next Steps
+- Start building the electromagnet
+- Test basic magnetic strength
+- Experiment with control using available components
+
+---
+
+## Resources Available to Me
+- Phone
+- Arduino / PCB
+- Sensors
+- Copper wire
+- Magnets
+- Some bought components
+
+---
+
+## How I Modified My Concept
+The key change was moving from a fully functional maglev train to a simplified levitation system.
+
+### Reasons
+- Limited time
+- Limited budget
+- Limited access to tools and materials
+
+### Decisions
+- Focus on electromagnet-based levitation
+- Simplify the structure
+- Treat movement as optional
+
+---
+
+## Next Steps (Going Forward)
+- Build one or more electromagnets
+- Connect electromagnet using L298 H-bridge
+- Use a potentiometer to manually control magnetic strength
+- Build a simple frame to hold the system
+- Attempt levitation of a permanent magnet
+- Research sensors for automatic control
+
+---
+
+## Images
+
+![Build](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Train.3.jpg)
+![Compnents and Sensors](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Components%2Bsensors.jpg)
+
+[↑ Back to Top](#toc)
+
+---
+
+## Project Summary
+A simplified maglev levitation project using an electromagnet controlled via Arduino. The project focuses on adapting to constraints and building a functional levitation system rather than a full train.
