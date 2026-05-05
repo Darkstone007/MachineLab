@@ -21,6 +21,9 @@ Machine Lab for Class – Personal Journal & Documentation
 - [April 12 (Progress Work + First Individual Meeting) - Journal](#apr-12)
 - [April 19 (Second Individual Meeting) - Journal](#apr-19)
 - [April 23 (Progress After Second Meeting) - Journal](#apr-23)
+- [April 26 (Continuing) - Journal](#apr-26)
+- [April 29 (After meeting/ Class) - Journal](#apr-29)
+- [May 1 (After meeting) - Jornal](#may-1)
 
 ## Jan 20 – Class Notes <a id="jan-20"></a>
 
@@ -305,3 +308,98 @@ The key change was moving from a fully functional maglev train to a simplified l
 
 ## Project Summary
 A simplified maglev levitation project using an electromagnet controlled via Arduino. The project focuses on adapting to constraints and building a functional levitation system rather than a full train.
+
+
+## Entry – April 26, 2026 – Journal <a id="apr-26"></a>
+
+Today I started intensive work on the electromagnet. I began testing different coils with various wire thicknesses. Each coil needed different voltage and current settings. I used a large nail as the iron core. I constantly used the multimeter to check continuity, resistance, DC voltage, and current.
+
+**Materials & Tools Used**
+- Copper wire (various thicknesses)
+- Iron nail (core)
+- Multimeter
+- Power supply / batteries
+- Soldering iron
+
+**Struggles**
+- Bare copper turns were shorting against each other.
+- Finding the right balance between voltage, current, and coil resistance.
+
+**Successes**
+- Successfully wound my first few test coils and could measure their performance.
+
+**Next Steps**
+- Continue improving coil winding technique and test stronger fields.
+
+[↑ Back to Top](#toc)
+
+---
+
+## Entry – April 29, 2026 – Journal <a id="apr-29"></a>
+
+I started looking at the broader system picture. I successfully ran a DC motor at 12V 2A. I then pushed the electromagnet testing to higher power levels.
+
+**Materials & Tools Used**
+- DC motor
+- Electromagnet coils (from previous day)
+- 24V power supply
+- Multimeter
+
+**What I Did**
+- Tested electromagnet at 24V 3.5A — produced the strongest magnetic force so far.
+- Experimented with longer coils to increase the number of turns.
+- Asked Grok to generate reference images for the final project vision.
+
+**Struggles**
+- Deciding whether to use more turns or thicker wire.
+- Understanding the trade-offs (I = V/R and magnetic field = turns × current).
+
+**Successes**
+- Achieved noticeably stronger magnetic field at 24V 3.5A.
+
+**Next Steps**
+- Decide on final coil specifications and begin building the enclosure.
+
+[↑ Back to Top](#toc)
+
+---
+
+## Entry – May 1, 2026 – Journal <a id="may-1"></a>
+
+Major building and testing day. I removed the sensor and decided to focus purely on getting the electromagnet reliably controlled through the MOSFET.
+
+**Materials & Tools Used**
+- Wooden boards (for enclosure)
+- Screws and drill
+- Arduino Uno
+- MOSFET
+- Flyback diode
+- 12V 7.2Ah battery
+- Various wires, clips, and connectors
+- Soldering iron
+
+**What I Did**
+- Cut and assembled a wooden enclosure.
+- Mounted the Arduino Uno securely inside the enclosure.
+- Built and tested the MOSFET control circuit with proper flyback diode protection.
+- Wired everything with clips and insulated wires.
+- Switched fully from H-bridge to MOSFET control.
+- Tested the circuit at different power levels.
+
+**Struggles**
+- The 12V 7.2Ah battery delivered too much current, causing some wires to overheat, catch fire, and melt.
+- Inconsistent electromagnet performance at times (no magnetic force).
+- Nearly short-circuited the Arduino and came close to damaging the MOSFET multiple times.
+- Arduino gets noticeably hot when running at 24V.
+
+**Successes**
+- Successfully built and mounted a solid wooden enclosure.
+- Got the MOSFET circuit working with diode protection.
+- Learned critical lessons about high-current handling and safety.
+
+**Next Steps**
+- Safely use the battery to achieve levitation (float the permanent magnet).
+- Simplify and clean up the Arduino code to make control easier and more reliable.
+- Improve overall wiring safety and add proper fusing/protection.
+
+[↑ Back to Top](#toc)
