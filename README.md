@@ -24,7 +24,7 @@ Machine Lab for Class – Personal Journal & Documentation
 - [April 26 (Continuing) - Journal](#apr-26)
 - [April 29 (After meeting/ Class) - Journal](#apr-29)
 - [May 1 (After meeting) - Jornal](#may-1)
-
+- [May 5, 2026 (Final Project Completion) – Journal](#may-5)
 ## Jan 20 – Class Notes <a id="jan-20"></a>
 
 ![Notes - January 20](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/20_Jan.jpg?raw=true)
@@ -403,3 +403,78 @@ Major building and testing day. I removed the sensor and decided to focus purely
 - Improve overall wiring safety and add proper fusing/protection.
 
 [↑ Back to Top](#toc)
+
+
+---
+
+## Entry – May 5, 2026 (Final Project Completion) – Journal <a id="may-5"></a>
+
+**Final Project: Arduino-Controlled Pulsed Electromagnet**
+
+After several weeks of iteration, troubleshooting, and adapting to constraints, I have successfully completed my individual Machine Lab project. The original maglev train idea was simplified into a functional **pulsed electromagnet system**. The device activates a strong electromagnet for 200 ms to attract ferromagnetic objects (tested with small metal pieces and "fruit"), then turns off for 4 seconds to release them.
+
+### Final Circuit & Build
+The system uses an Arduino to control a high-current electromagnet through a MOSFET, with proper protection components.
+
+**Key Components:**
+- Arduino Uno
+- N-channel MOSFET (IRF540N)
+- 10Ω gate resistor
+- Flyback diode (1N4007)
+- Custom-wound electromagnet (copper wire on iron nail core)
+- 12V 7.2Ah battery
+- Wooden enclosure
+
+**Circuit Diagram:**
+![Final Circuit Diagram](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Circuit.Final.jpeg)
+
+### Challenges Overcome
+- Corrected **MOSFET wiring** (Gate, Drain, Source were initially incorrect).
+- Added missing **common ground** between Arduino and battery negative.
+- Added 10Ω resistor on the gate for protection.
+- Managed high current safely to prevent overheating and shorts.
+
+### Final Project Images (P1 – P9)
+The following images show the completed build, wiring details, enclosure, and testing:
+
+![P1](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P1.jpeg) 
+![P2](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P2.jpg)  
+![P3](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P3.jpg)  
+![P4](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P4.jpg)  
+![P5](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P5.jpg)  
+![P6](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P6.jpg)  
+![P7](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P7.jpg)  
+![P8](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P8.jpg)  
+![P9](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P9.jpg)
+
+### YouTube Timelapse Video
+**Full Build Timelapse & Demonstration:**  
+N/A
+
+### Arduino Code
+```cpp
+const int pin9 = 9;
+
+// ONE VALUE TO CHANGE:
+const unsigned long onTime = 200;   // How long it stays ON (milliseconds)
+const unsigned long offTime = 4000; // How long it stays OFF
+
+void setup() {
+  pinMode(pin9, OUTPUT);
+  digitalWrite(pin9, LOW); // Start OFF
+}
+
+void loop() {
+  digitalWrite(pin9, HIGH); // ON
+  delay(onTime);
+  digitalWrite(pin9, LOW);  // OFF
+  delay(offTime);
+}
+```
+Reflection
+This project was a major learning experience. I learned the importance of proper MOSFET wiring, common grounding, flyback protection, and safe high-current handling. Adapting from an overly ambitious maglev train to a realistic and working pulsed electromagnet taught me valuable lessons in constraint-based design and persistence.
+Project Complete.
+[↑ Back to Top](#toc)
+
+
+---
