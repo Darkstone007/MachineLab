@@ -438,14 +438,14 @@ The system uses an Arduino to control a high-current electromagnet through a MOS
 The following images show the completed build, wiring details, enclosure, and testing:
 
 ![P1](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P1.jpeg) 
-![P2](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P2.jpg)  
-![P3](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P3.jpg)  
-![P4](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P4.jpg)  
-![P5](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P5.jpg)  
-![P6](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P6.jpg)  
-![P7](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P7.jpg)  
-![P8](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P8.jpg)  
-![P9](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P9.jpg)
+![P2](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P2.jpeg)  
+![P3](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P3.jpeg)  
+![P4](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P4.jpeg)  
+![P5](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P5.jpeg)  
+![P6](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P6.jpeg)  
+![P7](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P7.jpeg)  
+![P8](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P8.jpeg)  
+![P9](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/P9.jpeg)
 
 ### YouTube Timelapse Video
 **Full Build Timelapse & Demonstration:**  
@@ -471,9 +471,12 @@ void loop() {
   delay(offTime);
 }
 ```
-Reflection
+### Reflection
+
 This project was a major learning experience. I learned the importance of proper MOSFET wiring, common grounding, flyback protection, and safe high-current handling. Adapting from an overly ambitious maglev train to a realistic and working pulsed electromagnet taught me valuable lessons in constraint-based design and persistence.
+
 Project Complete.
+
 [↑ Back to Top](#toc)
 
 
