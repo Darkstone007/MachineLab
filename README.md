@@ -426,7 +426,7 @@ The system uses an Arduino to control a high-current electromagnet through a MOS
 - Wooden enclosure
 
 **Circuit Diagram:**
-![Final Circuit Diagram](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Circuit.Final.jpeg)
+![Final Circuit Diagram](https://github.com/Darkstone007/MachineLab/blob/main/Documentation/Circut.Final-3.png) 
 
 ### Challenges Overcome
 - Corrected **MOSFET wiring** (Gate, Drain, Source were initially incorrect).
@@ -474,6 +474,14 @@ void loop() {
 ### Reflection
 
 This project was a major learning experience. I learned the importance of proper MOSFET wiring, common grounding, flyback protection, and safe high-current handling. Adapting from an overly ambitious maglev train to a realistic and working pulsed electromagnet taught me valuable lessons in constraint-based design and persistence.
+
+I used:
+- Grok / Chatgpt for generating ciruit diagram and helping find parts to buy cost efficient.
+- Ardunio Library
+- Class Notes
+- Youtube for learning about electromagnets
+- Asking people at the work station for help and advice (Uncle and Aunt who works with PCBS)
+
 
 Project Complete.
 
